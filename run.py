@@ -17,7 +17,7 @@ path = os.getcwd()
 #            '--device 0 --batch-size 16 --epoch 80 --workers 4'))
 
 # predict video
-os.system('python detect_or_track.py --weights "runs/train/exp6/weights/best.pt" --show-track --track --nosave --view-img --no-trace --source "D:/MyTool/VideoSplit/video/1.mp4" --conf-thres 0.85')
+os.system('python detect_or_track.py --weights "runs/train/exp/weights/best.pt" --show-track --track --nosave --view-img --no-trace --source "D:/MyTool/VideoSplit/video/1.mp4" --conf-thres 0.85')
 # os.system('python detect_or_track.py --weights "runs/train/exp6/weights/best.pt" --show-track --track --view-img --no-trace --source "D:/MyTool/VideoSplit/video/2.mp4" --conf-thres 0.85')
 
 # predict picture
