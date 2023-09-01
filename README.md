@@ -8,7 +8,7 @@
 
 # Container 2D Object Tracking
 
-![test](D:\git\Container-2D-Tracking\assets\test.gif)
+![test](https://github.com/Nero-XD/Container-2D-Tracking/blob/main/assets/test.gif)
 
 # Trained Model
 
