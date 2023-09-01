@@ -1,6 +1,8 @@
 # Container-2D-Tracking
 
-以[YOLOv7](https://github.com/WongKinYiu/yolov7)为基础，使用YOLOv7-E6E预训练模型进行训练，加入了[SORT](https://github.com/haroonshakeel/yolov7-object-tracking)模块进行多目标轨迹跟踪，
+以[YOLOv7](https://github.com/WongKinYiu/yolov7)为基础，使用YOLOv7-E6E预训练模型进行训练，加入了[SORT](https://github.com/haroonshakeel/yolov7-object-tracking)模块进行多目标轨迹跟踪。
+
+Tested with：Python3.9.17，Pytorch1.11.0+cu113
 
 # DATASET
 
