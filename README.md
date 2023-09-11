@@ -37,8 +37,7 @@ Tested with：Python3.9.17，Pytorch1.11.0+cu113
 | :----: | :----: | :---: | :---: | :----: | :-------------: | :--------------------------------: |
 |  132   |  2388  | 0.853 | 0.732 |  0.8   |      0.459      |              15.6 ms               |
 
-链接：https://pan.baidu.com/s/1MGQuDrCjQbpaSiux0SaOSA?pwd=twz5 
-提取码：twz5
+[百度网盘](https://pan.baidu.com/s/1MGQuDrCjQbpaSiux0SaOSA?pwd=twz5)
 
 # Installation
 
@@ -56,9 +55,15 @@ pip install -r requirements_gpu
 
 # Inference
 
+test.mp4：[百度网盘](https://pan.baidu.com/s/1UaHiwamHM7Z4YNfyswrzsw?pwd=hn1e)
+
+请将test.mp4和Container_best.pt文件放于.git文件夹同级目录
+
 On video:
 
 ```
-python detect_or_track.py --weights best.pt --show-track --nosave --view-img --no-trace --source "test.mp4" --conf-thres 0.85 --device cpu
+python detect_or_track.py --weights Container_best.pt --show-track --nosave --view-img --no-trace --source "test.mp4" --conf-thres 0.85 --device cpu
 ```
+
+
 
