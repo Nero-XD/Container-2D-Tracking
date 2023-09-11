@@ -43,9 +43,15 @@ Tested with：Python3.9.17，Pytorch1.11.0+cu113
 # Installation
 
 ```shell
-conda create MyEnv python=3.9
+conda create -n MyEnv python=3.9
 conda activate MyEnv
 pip install -r requirements.txt
+```
+
+On gpu:
+
+```
+pip install -r requirements_gpu
 ```
 
 # Inference
@@ -53,6 +59,6 @@ pip install -r requirements.txt
 On video:
 
 ```
-python detect_or_track.py --weights Container_best.pt --conf 0.25 --img-size 640 --source yourvideo.mp4
+python detect_or_track.py --weights best.pt --show-track --nosave --view-img --no-trace --source "test.mp4" --conf-thres 0.85 --device cpu
 ```
 
