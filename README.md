@@ -50,7 +50,7 @@ pip install -r requirements.txt
 On gpu:
 
 ```
-pip install -r requirements_gpu
+pip install -r requirements_gpu.txt
 ```
 
 # Inference
